@@ -1,0 +1,220 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event-card1 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card2 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card3 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card4 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card5 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card6 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+  .event-description {
+    height: 104px;
+    /* width: 400px; */
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .intersection-line {
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .event-card1 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card2 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card3 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card4 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card5 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card6 {
+    margin: 20px 20px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+  .event-description {
+    height: 104px;
+    width: 400px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .intersection-line {
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .event-card1 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card2 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card3 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card4 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card5 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-card6 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .event-description {
+    height: 104px;
+    width: 400px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .intersection-line {
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+}
+
+.year-style {
+  height: 114px;
+
+  opacity: 0.1;
+  color: #3452c8;
+  font-family: Oxygen;
+  font-size: calc(20px + 3vw);
+  font-weight: 700;
+  letter-spacing: -0.56px;
+  line-height: 114px;
+}
+
+.month-style {
+  height: 38px;
+  color: #06185f;
+  font-family: Oxygen;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.19px;
+  line-height: 38px;
+}
+
+.history-card-appear {
+  opacity: 1;
+  transform: translate3d(-60px, 0, 0);
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes historyCardAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.history-card-disappear {
+  animation: historyCardDisappear 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes historyCardDisappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

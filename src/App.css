@@ -1,0 +1,253 @@
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+  width: 0px;
+  height: 1px;
+  background: transparent; /* Chrome/Safari/Webkit */
+  /* height: 1px; */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.show-element {
+  opacity: 1 !important;
+  transform: translate(0, -60px);
+}
+
+.show-element2 {
+  opacity: 1 !important;
+}
+
+.show-element3 {
+  opacity: 1 !important;
+  transform: translate(-60px, 0);
+}
+
+.show-element-half-opacity {
+  opacity: 0.75 !important;
+}
+
+.hide-element {
+  opacity: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .ml-heart {
+    display: none;
+  }
+
+  .ml-heart-green {
+    display: none;
+  }
+
+  .ml-heart-white {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .ml-heart {
+    display: none;
+  }
+
+  .ml-heart-green {
+    display: none;
+  }
+
+  .ml-heart-white {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ml-heart {
+    display: none;
+  }
+
+  .ml-heart-green {
+    display: none;
+  }
+
+  .ml-heart-white {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ml-heart {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 999;
+    animation: fullOpacity 0.9s;
+    display: inline;
+  }
+
+  .ml-heart-div-story {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+
+  .go-to-start-story {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 20;
+
+    color: #3452c8;
+    font-family: Oxygen;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+    width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+
+  .ml-heart-div-mindset {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+
+  .go-to-start-mindset {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 20;
+    transition: opacity 0.7s ease-out;
+    color: #1ab84f;
+    font-family: Oxygen;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+    width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    animation: fullOpacity 0.9s;
+  }
+
+  .ml-heart-green {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 20;
+    filter: invert(49%) sepia(63%) saturate(531%) hue-rotate(88deg)
+      brightness(100%) contrast(101%);
+    animation: fullOpacity 0.9s;
+    display: inline;
+  }
+
+  .ml-heart-white {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 999;
+    transition: opacity 0.7s ease-out;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(301deg)
+      brightness(103%) contrast(101%);
+    display: inline;
+  }
+
+  .ml-heart-div-products {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+
+  .go-to-start-products {
+    position: relative;
+    left: 90%;
+    top: 10vh;
+    z-index: 20;
+    transition: opacity 0.7s ease-out;
+    color: #fff;
+    font-family: Oxygen;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+    width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    animation: fullOpacity 0.9s;
+  }
+
+  .ml-heart-div-history {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+
+  .ml-heart-div-media {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    animation: fullOpacity 0.9s;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@keyframes fullOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ie-text-one {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 5px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.ie-text-two {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 5px;
+  position: absolute;
+  left: 35%;
+  top: 57%;
+}
+
+.ie-text-three {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 20px;
+  padding-right: 5px;
+  position: absolute;
+  left: 35%;
+  top: 80%;
+}

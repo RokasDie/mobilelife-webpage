@@ -1,0 +1,259 @@
+.fifth-page-background {
+  background-image: url("./images/MemeLoveTriangle.jpg");
+  background-size: Cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .fifth-page-text {
+    position: relative;
+    top: 60%;
+    color: #fff;
+    font-family: "Maven Pro";
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 15px;
+  }
+  .sunday-logo {
+    height: 40.11px;
+    width: 205.76px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .june-logo {
+    height: 40.11px;
+    width: 205.76px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 0 auto;
+    opacity: 0;
+  }
+
+  .visit-june-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #271d78;
+    font-family: "Maven Pro";
+    font-size: 15px;
+    position: relative;
+    opacity: 1;
+    display: inline-block;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .visit-sunday-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border-radius: 16px;
+    background-color: #18f9df;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #000;
+    font-family: "Maven Pro";
+    font-size: 15px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    opacity: 1;
+    display: inline-block;
+  }
+
+  .fifth-page {
+    width: 100%;
+    height: 180vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 0px 1px 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fifth-page-text {
+    position: relative;
+    top: 60%;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    width: 25em;
+    margin: 10px auto;
+  }
+
+  .sunday-logo {
+    height: 40.11px;
+    width: 205.76px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+  .june-logo {
+    height: 40.11px;
+    width: 205.76px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 0 auto;
+    opacity: 0;
+  }
+
+  .visit-june-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #271d78;
+    font-family: "Maven Pro";
+    font-size: 15px;
+    position: relative;
+    opacity: 1;
+    display: inline-block;
+    transition: opacity 0.7s, transform 0.7s, background-color 0.5s ease-out;
+  }
+
+  .visit-june-button:hover {
+    background-color: #cccccc;
+    transition: background-color 0.7s;
+  }
+
+  .visit-sunday-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border-radius: 16px;
+    background-color: #18f9df;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #000;
+    font-family: "Maven Pro";
+    font-size: 15px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s, background-color 0.5s ease-out;
+    opacity: 1;
+    display: inline-block;
+  }
+
+  .visit-sunday-button:hover {
+    background-color: #10ae9c;
+    transition: background-color 0.7s;
+  }
+
+  .fifth-page {
+    width: 100%;
+    height: 180vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 0px 1px 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .fifth-page {
+    width: 100%;
+    height: 220vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 1px 1px 1px;
+  }
+  .fifth-page-text {
+    position: relative;
+    top: 60%;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    width: 30em;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin: 25px 15px;
+    opacity: 0;
+  }
+
+  .sunday-logo {
+    height: 63.11px;
+    width: 205.76px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    display: inline-block;
+  }
+  .june-logo {
+    height: 63.11px;
+    width: 205.76px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 0 auto;
+    display: inline-block;
+    opacity: 0;
+  }
+
+  .visit-june-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #271d78;
+    font-family: "Maven Pro";
+    font-size: 17px;
+    position: relative;
+    opacity: 0;
+    display: inline-block;
+    transition: opacity 0.7s, transform 0.7s, background-color 0.5s ease-out;
+  }
+
+  .visit-sunday-button {
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 16px;
+    background-color: #18f9df;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+    color: #000;
+    font-family: "Maven Pro";
+    font-size: 17px;
+    position: relative;
+    transition: opacity 0.7s, transform 0.7s, background-color 0.5s ease-out;
+    opacity: 0;
+    display: inline-block;
+  }
+
+  .navigation-products {
+    position: absolute;
+    margin-left: 80px;
+    width: 3px;
+    background-color: rgba(238, 238, 238, 0.17);
+    height: 220vh;
+  }
+  .product-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

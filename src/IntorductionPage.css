@@ -1,0 +1,149 @@
+.first-page {
+  width: 100%;
+  height: 101vh;
+  background-color: #0022a7;
+  position: relative;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .embrace-uncertainty {
+    position: relative;
+    width: 210px;
+    margin: auto;
+    display: block;
+    transform: translate3d(0, 0, 0);
+    top: 25%;
+  }
+
+  .hurdy-mudy-man {
+    display: none;
+  }
+
+  .june-sunday-kml {
+    display: none;
+  }
+  .arrow-down {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .embrace-uncertainty {
+    position: relative;
+    width: 220px;
+    margin: auto;
+    display: block;
+    transform: translate3d(0, 0, 0);
+    overflow: visible;
+    top: 25%;
+  }
+  .hurdy-mudy-man {
+    display: none;
+  }
+
+  .june-sunday-kml {
+    display: none;
+  }
+
+  .arrow-down {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hurdy-mudy-man {
+    display: none;
+  }
+
+  .june-sunday-kml {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mobile-life-logo {
+    position: relative;
+  }
+  .embrace-uncertainty {
+    position: relative;
+    margin: auto;
+    display: block;
+
+    top: 25%;
+    width: 470px;
+    height: 150px;
+    overflow: visible;
+  }
+
+  .hurdy-mudy-man {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    height: "47.6px";
+    width: "178.94px";
+    opacity: 0.19;
+    color: "#fff";
+    font-family: "Chalkduster";
+    font-size: "16px";
+    letter-spacing: "1.44px";
+    line-height: "20px";
+    text-align: "center";
+    transform: "rotate(-9deg)";
+  }
+
+  .june-sunday-kml {
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .embrace-uncertainty {
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 30%;
+    width: 470px;
+    height: 150px;
+    overflow: visible;
+  }
+  .arrow-down {
+    display: inline;
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 90%;
+    fill: white;
+  }
+  .hurdy-mudy-man {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    height: "47.6px";
+    width: "178.94px";
+    opacity: 0.19;
+    color: "#fff";
+    font-family: "Chalkduster";
+    font-size: "16px";
+    letter-spacing: "1.44px";
+    line-height: "20px";
+    text-align: "center";
+    transform: "rotate(-9deg)";
+  }
+
+  .june-sunday-kml {
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+  }
+
+  .mobile-life-logo {
+    position: relative;
+  }
+}

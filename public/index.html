@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" type="text/css" href="./IEComponent.css" />
+    <link
+      rel="preload"
+      href="./fonts.css"
+      type="text/css"
+      as="style"
+      crossorigin="anonymous"
+    />
+    <link href="./fonts.css" rel="stylesheet" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>MobileLife</title>
+  </head>
+  <body class="disable-scrollbars" style=" overflow-x: hidden">
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <script>
+      // Function to check if Internet explorer if used
+      function isIE() {
+        var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+        var msie = ua.indexOf("MSIE "); // IE 10 or older
+        var trident = ua.indexOf("Trident/"); //IE 11
+        return msie > 0 || trident > 0;
+      }
+
+      if (isIE()) {
+        // remove root react element for internet explorer to create special div
+        document.body.removeChild(document.getElementById("root"));
+        var textComponentOne = document.createElement("DIV");
+        textComponentOne.className = "ie-text-one";
+        textComponentOne.innerText = "Save developers!";
+        var textComponentTwo = document.createElement("DIV");
+        textComponentTwo.className = "ie-text-two";
+        textComponentTwo.innerText = "Don't use Internet Explorer";
+        var textComponentThree = document.createElement("DIV");
+        textComponentThree.className = "ie-text-three";
+        textComponentThree.innerText = "P.S. Use Google Chrome";
+        var addIEComponent = document.createElement("DIV");
+
+        document.body.appendChild(addIEComponent);
+        addIEComponent.appendChild(textComponentOne);
+        addIEComponent.appendChild(textComponentTwo);
+        addIEComponent.appendChild(textComponentThree);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,343 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .media-card {
+    position: relative;
+    opacity: 0;
+    margin-bottom: 100px;
+  }
+
+  .media-image-size {
+    width: 330px;
+    height: 230px;
+  }
+  .article-style {
+    max-width: 420px;
+    color: #06185f;
+    font-family: Oxygen;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.19px;
+    line-height: 25px;
+  }
+  .media-card1 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 10px 15px;
+  }
+
+  .media-card2 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 10px 15px;
+  }
+
+  .media-card3 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 10px 15px;
+  }
+
+  .media-card4 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 10px 15px;
+  }
+
+  .media-card5 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 10px 15px;
+  }
+
+  .description-style {
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    margin-top: 0;
+  }
+
+  .source-link {
+    width: 120px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    position: relative;
+    z-index: 99;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .media-image-size {
+    width: 350px;
+    height: 235px;
+  }
+  .article-style {
+    max-width: 420px;
+    color: #06185f;
+    font-family: Oxygen;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.19px;
+    line-height: 25px;
+  }
+  .media-card1 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 30px 30px;
+  }
+
+  .media-card2 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+
+    margin: 30px 30px;
+  }
+
+  .media-card3 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 30px 30px;
+  }
+
+  .media-card4 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 30px 30px;
+  }
+
+  .media-card5 {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin: 30px 30px;
+  }
+
+  .description-style {
+    width: 400px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    margin-top: 0;
+  }
+
+  .source-link {
+    width: 120px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    position: relative;
+    z-index: 99;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Because of some laptop layouts media cards are too big and font needs to be minimized */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .media-image-size {
+    width: 300px;
+    height: 210px;
+  }
+  .media-card {
+    position: relative;
+    opacity: 0;
+    margin-bottom: 100px;
+  }
+  .media-card1 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card2 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card3 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card4 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card5 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .intersection-line {
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+
+  .article-style {
+    max-width: 420px;
+    color: #06185f;
+    font-family: Oxygen;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.19px;
+    line-height: 25px;
+  }
+  .description-style {
+    width: 400px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    margin-top: 0;
+  }
+
+  .source-link {
+    width: 120px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    position: relative;
+    z-index: 99;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .media-image-size {
+    width: 424px;
+    height: 319px;
+  }
+  .media-card {
+    position: relative;
+    opacity: 0;
+    margin-bottom: 100px;
+  }
+  .media-card1 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card2 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card3 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card4 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .media-card5 {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+    margin-right: 75px;
+  }
+
+  .intersection-line {
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+
+  .article-style {
+    max-width: 420px;
+    color: #06185f;
+    font-family: Oxygen;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.19px;
+    line-height: 38px;
+  }
+
+  .source-link {
+    width: 120px;
+    color: #06185f;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    position: relative;
+    z-index: 99;
+  }
+}
+
+.media-card-appear {
+  animation: mediaCardAppear 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mediaCardAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.media-card-disappear {
+  animation: mediaCardDisappear 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mediaCardDisappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

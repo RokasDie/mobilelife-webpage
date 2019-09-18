@@ -1,0 +1,31 @@
+.ie-text-one {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 5px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.ie-text-two {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 5px;
+  position: absolute;
+  left: 35%;
+  top: 57%;
+}
+
+.ie-text-three {
+  color: #0022a7;
+  font-family: "SignPainter";
+  font-size: 20px;
+  padding-right: 5px;
+  position: absolute;
+  left: 35%;
+  top: 80%;
+}

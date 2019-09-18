@@ -1,0 +1,194 @@
+.third-page-background-image {
+  background-image: url("./images/MobileLife-11.jpg");
+  background-size: Cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section-separation-mindset {
+    height: 20vh;
+  }
+  .third-page {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 0px 1px 0px;
+  }
+  .the-mindset {
+    color: #1ab84f;
+    font-family: Oxygen;
+    font-size: 25px;
+    letter-spacing: -0.3px;
+    line-height: 61px;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-first-text {
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin: 5px 20px;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-text-two {
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Maven Pro";
+    text-align: left;
+    margin: 10px 20px;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-separation-mindset {
+    height: 50vh;
+  }
+  .third-page {
+    position: relative;
+    width: 100%;
+    height: 180vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 0px 1px 0px;
+  }
+  .the-mindset {
+    position: relative;
+    height: 61px;
+    color: #1ab84f;
+    font-family: Oxygen;
+    font-size: calc(28px + 2vw);
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    line-height: 61px;
+    text-align: center;
+    top: 50%;
+    margin: 30px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-first-text {
+    position: relative;
+    top: 50%;
+    width: 32em;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin: 20px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-text-two {
+    position: relative;
+    top: 50%;
+    width: 32em;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin: 20px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-separation-mindset {
+    height: 60vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .third-page {
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background-color: #092556;
+    opacity: 0.9;
+    padding: 1px 0px 1px 0px;
+  }
+  .section-separation-mindset {
+    height: 70vh;
+  }
+  .navigation-mindset {
+    position: absolute;
+    margin-left: 81px;
+    width: 3px;
+    background-color: rgba(238, 238, 238, 0.15);
+    height: 200vh;
+  }
+
+  .the-mindset {
+    position: relative;
+    height: 61px;
+    color: #1ab84f;
+    font-family: Oxygen;
+    font-size: calc(28px + 2vw);
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    line-height: 61px;
+    text-align: center;
+    top: 50%;
+    margin: 30px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-first-text {
+    position: relative;
+    top: 50%;
+    width: 32em;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin: 20px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+
+  .the-mindset-text-two {
+    position: relative;
+    top: 50%;
+    width: 32em;
+    color: #fff;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin: 20px auto;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s ease-out;
+  }
+}
